@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dapper;
+using System;
 using System.Data;
 using System.IO;
 using MySql.Data.MySqlClient;
@@ -37,8 +38,17 @@ namespace Best_buy_Dapper
             }
 
             repo.InsertDepartment("Test Department");
-           
 
+            var depRepo = new DapperProductRepository(conn);
+
+            depRepo.CreateProduct("newStuff", 20, 1);
+
+            var products = depRepo.GetAllProducts(); // belongs to the instance of the DapperProductRepository class
+
+            foreach (var prod in products)
+            {
+                Console.WriteLine(prod.Name);
+            }
 
         }
     }

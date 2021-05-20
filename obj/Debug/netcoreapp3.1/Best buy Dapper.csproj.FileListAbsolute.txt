@@ -41,3 +41,4 @@ C:\Users\hughs\OneDrive\Desktop\Repo\Best buy Dapper\Best buy Dapper\obj\Debug\n
 C:\Users\hughs\OneDrive\Desktop\Repo\Best buy Dapper\Best buy Dapper\obj\Debug\netcoreapp3.1\Best buy Dapper.dll
 C:\Users\hughs\OneDrive\Desktop\Repo\Best buy Dapper\Best buy Dapper\obj\Debug\netcoreapp3.1\Best buy Dapper.pdb
 C:\Users\hughs\OneDrive\Desktop\Repo\Best buy Dapper\Best buy Dapper\obj\Debug\netcoreapp3.1\Best buy Dapper.genruntimeconfig.cache
+C:\Users\hughs\OneDrive\Desktop\Repo\Best buy Dapper\Best buy Dapper\bin\Debug\netcoreapp3.1\appsettings.json
